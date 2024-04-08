@@ -43,10 +43,7 @@
                 <behavior>Edit</behavior>
                 <field>AreaNumber__c</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Out_of_service__c</field>
-            </layoutItems>
+
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
