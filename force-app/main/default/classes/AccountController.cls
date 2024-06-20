@@ -1,7 +1,7 @@
 public with sharing class AccountController {
     @AuraEnabled(cacheable=true)
     public static List<Account> getAccountList() {
-        return [SELECT Id, Name FROM Account LIMIT 20];
+        return [SELECT Id, Name FROM Account LIMIT 20];//this should trigger all tests
     }
 
     @AuraEnabled(cacheable=true)
