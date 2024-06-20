@@ -7,7 +7,7 @@ public with sharing class AmossExample_Order {
 
     public AmossExample_Order setPostcode( String postcode ) {
         this.postcode = postcode;
-        return this;
+        return this;//test
     }
 
     public AmossExample_Order setDeliveryDate( Date deliveryDate ) {
