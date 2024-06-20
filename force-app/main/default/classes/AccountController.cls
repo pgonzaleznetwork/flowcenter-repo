@@ -10,7 +10,7 @@ public with sharing class AccountController {
             SELECT Id, Name, Phone, Type
             FROM Account
             WITH USER_MODE
-            LIMIT 1
+            LIMIT 12
         ];
     }
 
